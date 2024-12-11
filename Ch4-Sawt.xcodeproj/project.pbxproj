@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0DD58AC52D094E49004B0786 /* Ch4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ch4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD58AC52D094E49004B0786 /* Ch4-Sawt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ch4-Sawt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		0DD58AC62D094E49004B0786 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DD58AC52D094E49004B0786 /* Ch4.app */,
+				0DD58AC52D094E49004B0786 /* Ch4-Sawt.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DD58AC42D094E49004B0786 /* Ch4 */ = {
+		0DD58AC42D094E49004B0786 /* Ch4-Sawt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DD58AD32D094E4B004B0786 /* Build configuration list for PBXNativeTarget "Ch4" */;
+			buildConfigurationList = 0DD58AD32D094E4B004B0786 /* Build configuration list for PBXNativeTarget "Ch4-Sawt" */;
 			buildPhases = (
 				0DD58AC12D094E49004B0786 /* Sources */,
 				0DD58AC22D094E49004B0786 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				0DD58AC72D094E49004B0786 /* Ch4 */,
 			);
-			name = Ch4;
+			name = "Ch4-Sawt";
 			packageProductDependencies = (
 			);
 			productName = Ch4;
-			productReference = 0DD58AC52D094E49004B0786 /* Ch4.app */;
+			productReference = 0DD58AC52D094E49004B0786 /* Ch4-Sawt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0DD58AC02D094E49004B0786 /* Build configuration list for PBXProject "Ch4" */;
+			buildConfigurationList = 0DD58AC02D094E49004B0786 /* Build configuration list for PBXProject "Ch4-Sawt" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DD58AC42D094E49004B0786 /* Ch4 */,
+				0DD58AC42D094E49004B0786 /* Ch4-Sawt */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +249,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ch4/Ch4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Ch4/Preview Content\"";
@@ -278,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Ch4/Ch4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Ch4/Preview Content\"";
@@ -305,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DD58AC02D094E49004B0786 /* Build configuration list for PBXProject "Ch4" */ = {
+		0DD58AC02D094E49004B0786 /* Build configuration list for PBXProject "Ch4-Sawt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD58AD12D094E4B004B0786 /* Debug */,
@@ -314,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DD58AD32D094E4B004B0786 /* Build configuration list for PBXNativeTarget "Ch4" */ = {
+		0DD58AD32D094E4B004B0786 /* Build configuration list for PBXNativeTarget "Ch4-Sawt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DD58AD42D094E4B004B0786 /* Debug */,
